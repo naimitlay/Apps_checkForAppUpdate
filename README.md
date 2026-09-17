@@ -1,6 +1,7 @@
 # Apps_checkForAppUpdate
 
  private AppUpdateManager appUpdateManager;
+ 
     private ActivityResultLauncher<IntentSenderRequest> updateActivityResultLauncher;
 
    // =========================================================================================
