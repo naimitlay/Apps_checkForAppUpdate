@@ -1,5 +1,10 @@
 # Apps_checkForAppUpdate
 
+ private AppUpdateManager appUpdateManager;
+    private ActivityResultLauncher<IntentSenderRequest> updateActivityResultLauncher;
+
+   // =========================================================================================
+
 
 // ১. ইন-অ্যাপ আপডেট ইনিশিয়ালাইজেশন (Modern ActivityResultLauncher)
         // =========================================================================
